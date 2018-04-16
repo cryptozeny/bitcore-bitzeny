@@ -74,8 +74,7 @@
     "protobufjs": "=3.0.0",
     "sjcl": "=1.0.1",
     "socks5-client": "~0.3.6",
-    "bitzeny-yescrypt": "git://github.com/BitzenyCoreDevelopers/node-bitzeny-yescrypt.git",
-    "scrypt": "git://github.com/barrysteyn/node-scrypt.git"
+    "scrypt-jane-hash": "git://github.com/zone117x/node-scrypt-jane-hash"
   },
   "testling": {
     "harness": "mocha-bdd",
