@@ -6,25 +6,33 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('daa5bef9'),
-  addressVersion: 81,
+  // magic: hex('daa5bef9'),
+  magic: hex('9f263b54'),
+  // addressVersion: 81,
+  addressVersion: 48,
   privKeyVersion: 128,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('CEF5B89F4EBF38A73CD440439EDACA4AFA7C7AD82BE281473B9E5EE5F7090000'),
-    merkle_root: hex('D2A4DB3BCE9F2044558211B401DC45C72806A9FFC7F8A3DF9C3A58B491E526A6'),
+    // hash: hex('CEF5B89F4EBF38A73CD440439EDACA4AFA7C7AD82BE281473B9E5EE5F7090000'),
+    hash: hex('ABCC4CB36B9390F1EA8C7FED0F7F390D1AE4D6D9B5F1EBCDE0DC926471E33BBD'),
+    // merkle_root: hex('D2A4DB3BCE9F2044558211B401DC45C72806A9FFC7F8A3DF9C3A58B491E526A6'),
+    merkle_root: hex('AF6F6D8612F4A8726A46E61D30DDC23AF34F50AEBBA3C08F252A6D2B41838B55'),
     height: 0,
-    nonce: 369858,
+    // nonce: 369858,
+    nonce: 3033548,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1415384723,
-    bits: 507510783,  // 0x1e3fffff
+    // timestamp: 1415384723,
+    timestamp: 1514764800,
+    // bits: 507510783,  // 0x1e3fffff
+    bits: 504365040,  // 0x1e3fffff(제니) >> 0x1e0ffff0(안즈)
   },
   dnsSeeds: [
   ],
-  defaultClientPort: 9253
+  // defaultClientPort: 9253
+  defaultClientPort: 9333
 };
 
 exports.mainnet = exports.livenet;
