@@ -75,7 +75,8 @@
     "sjcl": "=1.0.1",
     "socks5-client": "~0.3.6",
     "bitzeny-yescrypt": "git://github.com/BitzenyCoreDevelopers/node-bitzeny-yescrypt.git",
-    "scrypt-jane-hash": "git://github.com/zone117x/node-scrypt-jane-hash"
+    "scrypt-jane-hash": "git://github.com/zone117x/node-scrypt-jane-hash",
+    "scryptsy": "0.2.x"
   },
   "testling": {
     "harness": "mocha-bdd",
